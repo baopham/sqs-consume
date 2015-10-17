@@ -1,0 +1,27 @@
+{
+  "name": "sqs-consume",
+  "version": "1.0.0",
+  "description": "Quickly delete events from a queue",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baopham/sqs-consume.git"
+  },
+  "keywords": [
+    "SQS",
+    "AWS"
+  ],
+  "author": "Bao Pham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baopham/sqs-consume/issues"
+  },
+  "homepage": "https://github.com/baopham/sqs-consume#readme",
+  "dependencies": {
+    "dotenv": "^1.2.0",
+    "sqs-consumer": "^2.2.1"
+  }
+}
