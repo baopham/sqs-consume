@@ -5,6 +5,7 @@ var app = Consumer.create({
   queueUrl: process.env.QUEUE_URL,
   handleMessage: function (message, done) {
     console.log(message);
+    // consume now.
     done();
   }
 });
